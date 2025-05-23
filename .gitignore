@@ -1,0 +1,21 @@
+#Python and data files to ignore
+_pycache_/
+*.py[cod]
+*.swp
+*.bak
+#Data files(don't track user-specific habit data)
+habits.json
+top.py
+first.py
+HabitTracker.py
+#Virtual environment files
+.venv/
+venv/
+env/
+#IDE specific files
+.idea/
+.vscode/
+*.code_workspace
+#System files
+.DS_Store
+Thumbs.db
